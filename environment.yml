@@ -1,0 +1,22 @@
+name: Exploring-Mental-Health-Data
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pandas
+  - numba
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - mlflow
+  - pre-commit
+  - ipython
+  - librosa
+  - databricks-sdk
+  - mlxtend
+  - ipykernel
+  - xgboost
+  - pytorch
+  - tensorflow
+  - catboost
