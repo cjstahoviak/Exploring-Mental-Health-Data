@@ -1,7 +1,7 @@
 # Exploring-Mental-Health-Data
 This repo is for participating in [this](https://www.kaggle.com/competitions/playground-series-s4e11) Kaggle competition.
 
-*"**Your Goal**: Your goal is to use data from a mental health survey to explore factors that may cause individuals to experience depression."*
+*"**Your Goal**: Use data from a mental health survey to explore factors that may cause individuals to experience depression."*
 
 ### Evaluation
 Submissions are evaluated using Accuracy Score.
