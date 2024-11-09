@@ -4,7 +4,7 @@ This repo is for participating in [this](https://www.kaggle.com/competitions/pla
 *"**Your Goal**: Use data from a mental health survey to explore factors that may cause individuals to experience depression."*
 
 ### Evaluation
-Submissions are evaluated using Accuracy Score.
+Submissions are evaluated using <ins>Accuracy Score</ins>.
 
 For each id row in the test set, you must predict the target Depression. The file should contain a header and have the following format:
 ``` xml
