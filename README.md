@@ -32,7 +32,7 @@ All models are generated in the `./model/<model-type>` folders. The goal is to t
 1. Data Exploration:
     - Perform and EDA on the given dataset
 2. Data Pre-Processing & Feature Engineering:
-    - Handle missing values via impution or dropping
+    - ~~Handle missing values via impution or dropping~~
     - Address class imbalanced with techniques like SMOTE, undersampling, or weighting
     - Create new features if useful
     - Perform encoding on categorical features
