@@ -29,9 +29,9 @@ categorical_features = ['Gender', 'City', 'Working Professional or Student', 'Pr
                         'Have you ever had suicidal thoughts ?', 'Family History of Mental Illness']
 
 for col in categorical_features:
-    # Replace NaN values in categorical columns with 'Unknown'
-    imputed_avg_data[col].fillna('Unknown', inplace=True)
-    imputed_median_data[col].fillna('Unknown', inplace=True)
+    # Use direct assignment to modify the DataFrame
+    imputed_avg_data[col] = imputed_avg_data[col].fillna('Unknown')
+    imputed_median_data[col] = imputed_median_data[col].fillna('Unknown')
 
     # Ensure all categorical columns are strings
     imputed_avg_data[col] = imputed_avg_data[col].astype(str)
