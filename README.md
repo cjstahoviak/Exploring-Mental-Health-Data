@@ -36,10 +36,12 @@ All models are generated in the `./model/<model-type>` folders. The goal is to t
     - Address class imbalanced with techniques like SMOTE, undersampling, or weighting
     - Create new features if useful
     - Perform encoding on categorical features
-    - Optionally bin numerical data
+    - Bin numerical data
+    - Correct mislabeled data
 3. Model Development:
     - Build decision tree model in XGBoost to leverage GPU support
     - Build a CatBoost model
+    - Build a LightGBM model
     - Build Logistic regression model
     - Build Support Vector Machine model
     - Build Neural Net Model
