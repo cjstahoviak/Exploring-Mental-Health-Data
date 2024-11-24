@@ -1,0 +1,10 @@
+{
+    "border_count": 32,
+    "random_strength": 2,
+    "iterations": 500,
+    "bagging_temperature": 0,
+    "l2_leaf_reg": 5,
+    "depth": 4,
+    "learning_rate": 0.05,
+    "random_seed": 42
+}
