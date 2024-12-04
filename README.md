@@ -42,6 +42,10 @@ All models are generated in the `./model/<model-type>` folders. The goal is to t
     - Build decision tree model in XGBoost to leverage GPU support
     - Build a CatBoost model
     - Build a LightGBM model
-    - Build Logistic regression model
+    - ~~Build Logistic regression model~~
     - Build Support Vector Machine model
     - Build Neural Net Model
+    - Build a transformer model
+4. Model Ensemble:
+    - Voting ensemble
+    - Hill climbing ensemble
