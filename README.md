@@ -49,3 +49,6 @@ All models are generated in the `./model/<model-type>` folders. The goal is to t
 4. Model Ensemble:
     - Voting ensemble
     - Hill climbing ensemble
+  
+## Results
+Ranked 849/2687
